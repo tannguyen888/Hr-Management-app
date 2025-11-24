@@ -1,0 +1,16 @@
+COMP2130-HRApp/
+├─ pom.xml
+├─ src/
+│  ├─ main/
+│  │  ├─ java/
+│  │  │  └─ com/group/hrapp/
+│  │  │      ├─ controller/
+│  │  │      │   └─ EmployeeController.java
+│  │  │      ├─ model/
+│  │  │      │   ├─ Employee.java
+│  │  │      │   └─ Payroll.java
+│  │  │      └─ MainApp.java
+│  │  └─ resources/
+│  │      └─ com/group/hrapp/
+│  │          └─ view/
+│  │              └─ EmployeeView.fxml
