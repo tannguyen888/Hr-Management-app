@@ -35,10 +35,8 @@ public class Main extends Application {
         root.setPrefSize(653, 350);
         root.setStyle("-fx-background-color: #f4c064;");
 
-        // Load employees
         List<Employee> loaded = DataStorage.loadEmployees();
-        if (loaded != null)
-            sharedEmployees.addAll(loaded);
+        sharedEmployees.setAll(loaded);
 
         Font font14 = new Font(14);
         Font font16 = new Font(16);
@@ -82,7 +80,6 @@ public class Main extends Application {
                 makeLabel("101567828 - Duc Thien Doan", 440, 270, font14),
                 makeLabel("101570606 - Duc Dou", 440, 290, font14));
 
-        // Login pane
         Pane loginRoot = new Pane();
         loginRoot.setPrefSize(400, 250);
         loginRoot.setStyle("-fx-background-color: #f4c064;");
